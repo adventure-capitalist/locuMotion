@@ -37,7 +37,7 @@ class ShiftList extends Component {
     }
     
     greetingCalculator = () => {
-        let rightNow = new Date;
+        let rightNow = new Date();
         console.log(rightNow.getHours())
         if( 4 < rightNow.getHours() && rightNow.getHours() <= 11) {
             return "morning"
