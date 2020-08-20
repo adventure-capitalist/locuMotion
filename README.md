@@ -16,7 +16,7 @@ https://nervous-kilby-6d9fe3.netlify.app/
 
 ### Room to improve
 
-if there was more time and there was easier to test as different users, I'd like to control the application counter buttons more by updating the applicationIds part of the API response that gets stored in the state with a callback that pushes in the current user's id. Right now, I only have one user's details but it would be easy enough to fake some more users.
+If there was more time and I could use a whole bunch of users, I'd like to control the application counter buttons by updating the applicationIds part of the API response that gets stored in the state with a callback that pushes in the current user's id. Right now, I only have one user's details but it would be easy enough to fake some more users.
 
 These are also my first ever JavaScript tests. They could be more robust, and check for more things, however, the time was short and learning was time-consuming enough.
 
